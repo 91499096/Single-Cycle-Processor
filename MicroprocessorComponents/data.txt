@@ -1,0 +1,10 @@
+$date
+   Tue Feb 18 04:36:42 2014
+$end
+$version
+  P.28xd
+$end
+$timescale
+  1ps
+$end
+$enddefinitions $end

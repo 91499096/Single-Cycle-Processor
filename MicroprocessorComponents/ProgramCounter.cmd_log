@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/CompE 475/Homework 1/MicroprocessorComponents/ProgramCounter.xst" -ofn "C:/Users/Chris/Documents/CompE 475/Homework 1/MicroprocessorComponents/ProgramCounter.syr" 
+xst -intstyle ise -ifn "C:/Users/Chris/Documents/CompE 475/Homework 1/MicroprocessorComponents/ProgramCounter.xst" -ofn "C:/Users/Chris/Documents/CompE 475/Homework 1/MicroprocessorComponents/ProgramCounter.syr" 

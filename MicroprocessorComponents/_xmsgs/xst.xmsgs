@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="old" >"C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" Line 110: Using initial value of <arg fmt="%s" index="1">rst</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\InstructionMemory.v" Line 11: Signal &lt;<arg fmt="%s" index="1">instructionMem</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Increment.v" Line 9: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">49</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">JumpMux</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">50</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PCSrcMux</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">54</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALUSrcMux</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">RegDstMux</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">MemtoRegMux</arg>&gt; of block &lt;<arg fmt="%s" index="4">Mux</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">66</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PCBranchOut</arg>&gt; of block &lt;<arg fmt="%s" index="4">adder</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">69</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">c1</arg>&gt; of block &lt;<arg fmt="%s" index="4">Controller</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">75</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">ALU1</arg>&gt; of block &lt;<arg fmt="%s" index="4">ALU</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">78</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">rFile</arg>&gt; of block &lt;<arg fmt="%s" index="4">RegisterFile</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">83</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">iMem</arg>&gt; of block &lt;<arg fmt="%s" index="4">InstructionMemory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">87</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">PC</arg>&gt; of block &lt;<arg fmt="%s" index="4">nbitReg</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">90</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">dMem</arg>&gt; of block &lt;<arg fmt="%s" index="4">DataMemory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">94</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">SignEx</arg>&gt; of block &lt;<arg fmt="%s" index="4">SignExtend</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">97</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pcInc</arg>&gt; of block &lt;<arg fmt="%s" index="4">Increment</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v</arg>&quot; line <arg fmt="%d" index="2">105</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">test1</arg>&gt; of block &lt;<arg fmt="%s" index="4">SingleCycleProcessor2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">tb_SingleCycleProcessor2</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+</messages>
+

@@ -1,0 +1,1 @@
+I was unable to track down why the store word was not working correctly, nor was I able to figure out why the second branch was being taken for no reason.

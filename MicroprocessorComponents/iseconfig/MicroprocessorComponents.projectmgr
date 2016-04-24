@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="MicroprocessorComponents" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Controller C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|Controller.v</ClosedNode>
+         <ClosedNode>/tb_ALU C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|ALU.v</ClosedNode>
+         <ClosedNode>/tb_ALU C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|ALU.v</ClosedNode>
+         <ClosedNode>/tb_Controller C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|Controller.v</ClosedNode>
+         <ClosedNode>/tb_InstructionMemory C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|InstructionMemory.v</ClosedNode>
+         <ClosedNode>/tb_InstructionMemory C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|InstructionMemory.v</ClosedNode>
+         <ClosedNode>/tb_RegFil C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|RegisterFile.v</ClosedNode>
+         <ClosedNode>/tb_RegFil C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|RegisterFile.v</ClosedNode>
+         <ClosedNode>/tb_SignExtend C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|SignExtend.v</ClosedNode>
+         <ClosedNode>/tb_SignExtend C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|SignExtend.v</ClosedNode>
+         <ClosedNode>/tb_SingleCycleProcessor C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|SingleCycleProcessor.v</ClosedNode>
+         <ClosedNode>/tb_SingleCycleProcessor C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|SingleCycleProcessor.v</ClosedNode>
+         <ClosedNode>/tb_adder C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|adder.v</ClosedNode>
+         <ClosedNode>/tb_dMem C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|DataMemory.v</ClosedNode>
+         <ClosedNode>/tb_dMem C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|DataMemory.v</ClosedNode>
+         <ClosedNode>/tb_increment C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|Increment.v</ClosedNode>
+         <ClosedNode>/tb_nbitReg C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|ProgramCounter.v</ClosedNode>
+         <ClosedNode>/tb_nbitReg C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|ProgramCounter.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_SingleCycleProcessor2 (C:/Users/Chris/Documents/CompE 475/Homework 2/MicroprocessorComponents/SingleCycleProcessor2.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000017c000000020000000000000000000000000200000064ffffffff0000008100000003000000020000017c0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_SingleCycleProcessor2 (C:/Users/Chris/Documents/CompE 475/Homework 2/MicroprocessorComponents/SingleCycleProcessor2.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000108000000010000000100000000000000000000000064ffffffff000000810000000000000001000001080000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d70000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>DataMemory.v</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>work</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000108000000010000000100000000000000000000000064ffffffff000000810000000000000001000001080000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/SingleCycleProcessor C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|SingleCycleProcessor.v</ClosedNode>
+         <ClosedNode>/tb_ALU C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|ALU.v</ClosedNode>
+         <ClosedNode>/tb_ALU C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|ALU.v</ClosedNode>
+         <ClosedNode>/tb_Controller C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|Controller.v/c1 - Controller</ClosedNode>
+         <ClosedNode>/tb_InstructionMemory C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|InstructionMemory.v</ClosedNode>
+         <ClosedNode>/tb_InstructionMemory C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|InstructionMemory.v</ClosedNode>
+         <ClosedNode>/tb_ProgramCounter C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|ProgramCounter.v</ClosedNode>
+         <ClosedNode>/tb_RegFil C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|RegisterFile.v</ClosedNode>
+         <ClosedNode>/tb_RegFil C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|RegisterFile.v</ClosedNode>
+         <ClosedNode>/tb_SignExtend C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|SignExtend.v</ClosedNode>
+         <ClosedNode>/tb_SignExtend C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|SignExtend.v</ClosedNode>
+         <ClosedNode>/tb_SingleCycleProcessor C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|SingleCycleProcessor.v/test1 - SingleCycleProcessor</ClosedNode>
+         <ClosedNode>/tb_SingleCycleProcessor C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|SingleCycleProcessor.v</ClosedNode>
+         <ClosedNode>/tb_SingleCycleProcessor2 C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|SingleCycleProcessor2.v</ClosedNode>
+         <ClosedNode>/tb_dMem C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|DataMemory.v</ClosedNode>
+         <ClosedNode>/tb_dMem C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|DataMemory.v</ClosedNode>
+         <ClosedNode>/tb_increment C:|Users|Chris|Documents|CompE 475|Homework 1|MicroprocessorComponents|Increment.v</ClosedNode>
+         <ClosedNode>/tb_increment C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|Increment.v</ClosedNode>
+         <ClosedNode>/tb_nbitReg C:|Users|Chris|Documents|CompE 475|Homework 2|MicroprocessorComponents|ProgramCounter.v</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>tb_SingleCycleProcessor2 (C:/Users/Chris/Documents/CompE 475/Homework 2/MicroprocessorComponents/SingleCycleProcessor2.v)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000154000000020000000000000000000000000200000064ffffffff000000810000000300000002000001540000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>tb_SingleCycleProcessor2 (C:/Users/Chris/Documents/CompE 475/Homework 2/MicroprocessorComponents/SingleCycleProcessor2.v)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000108000000010000000100000000000000000000000064ffffffff000000810000000000000001000001080000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>ISim Simulator</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000108000000010000000100000000000000000000000064ffffffff000000810000000000000001000001080000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>ISim Simulator</CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

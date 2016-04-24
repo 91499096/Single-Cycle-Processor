@@ -1,0 +1,386 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: tb_SingleCycleProcessor2.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tb_SingleCycleProcessor2.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tb_SingleCycleProcessor2"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : tb_SingleCycleProcessor2
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SignExtend.v" into library work
+Parsing module <SignExtend>.
+Parsing module <tb_SignExtend>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\RegisterFile.v" into library work
+Parsing module <RegisterFile>.
+Parsing module <tb_RegFil>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ProgramCounter.v" into library work
+Parsing module <nbitReg>.
+Parsing module <tb_nbitReg>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Mux.v" into library work
+Parsing module <Mux>.
+Parsing module <tb_mux>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\InstructionMemory.v" into library work
+Parsing module <InstructionMemory>.
+Parsing module <tb_InstructionMemory>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Increment.v" into library work
+Parsing module <Increment>.
+Parsing module <tb_increment>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\DataMemory.v" into library work
+Parsing module <DataMemory>.
+Parsing module <tb_dMem>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" into library work
+Parsing module <Controller>.
+Parsing module <MainDecoder>.
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 28. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 29. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 30. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 31. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 32. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 33. parameter declaration becomes local in MainDecoder with formal parameter declaration list
+Parsing module <ALUDecoder>.
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 117. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 118. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 119. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 123. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 124. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 125. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 126. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 127. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 131. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 132. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 133. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 134. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 135. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 136. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v" Line 137. parameter declaration becomes local in ALUDecoder with formal parameter declaration list
+Parsing module <tb_Controller>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" into library work
+Parsing module <ALU>.
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 11. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 12. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 13. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 14. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 15. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 16. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 17. parameter declaration becomes local in ALU with formal parameter declaration list
+Parsing module <tb_ALU>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\adder.v" into library work
+Parsing module <adder>.
+Parsing module <tb_adder>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" into library work
+Parsing module <SingleCycleProcessor2>.
+Parsing module <tb_SingleCycleProcessor2>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <tb_SingleCycleProcessor2>.
+WARNING:HDLCompiler:872 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" Line 110: Using initial value of rst since it is never assigned
+
+Elaborating module <SingleCycleProcessor2(width=32,wordLength=32)>.
+
+Elaborating module <Mux(width=5)>.
+
+Elaborating module <Mux(width=32)>.
+
+Elaborating module <adder(width=5)>.
+
+Elaborating module <Controller(codeWidth=6,MainDecodeOut=7)>.
+
+Elaborating module <MainDecoder(opWidth=6,ALUOpWidth=2)>.
+
+Elaborating module <ALUDecoder(opWidth=6,ALUOpWidth=2)>.
+
+Elaborating module <ALU(width=32)>.
+
+Elaborating module <RegisterFile(width=32,wordLength=32)>.
+Reading initialization file \"rFile.txt\".
+
+Elaborating module <InstructionMemory(width=32,wordLength=32)>.
+Reading initialization file \"prog.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\InstructionMemory.v" Line 11: Signal <instructionMem> in initial block is partially initialized.
+
+Elaborating module <nbitReg(width=5)>.
+
+Elaborating module <DataMemory(width=32,wordLength=32)>.
+Reading initialization file \"dMem.txt\".
+
+Elaborating module <SignExtend(in=32'sb010000,out=32)>.
+
+Elaborating module <Increment(width=5)>.
+WARNING:HDLCompiler:413 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Increment.v" Line 9: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 49. All outputs of instance <JumpMux> of block <Mux> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 50. All outputs of instance <PCSrcMux> of block <Mux> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 54. All outputs of instance <ALUSrcMux> of block <Mux> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 57. All outputs of instance <RegDstMux> of block <Mux> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 60. All outputs of instance <MemtoRegMux> of block <Mux> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 66. All outputs of instance <PCBranchOut> of block <adder> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 69. All outputs of instance <c1> of block <Controller> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 75. All outputs of instance <ALU1> of block <ALU> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 78. All outputs of instance <rFile> of block <RegisterFile> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 83. All outputs of instance <iMem> of block <InstructionMemory> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 87. All outputs of instance <PC> of block <nbitReg> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 90. All outputs of instance <dMem> of block <DataMemory> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 94. All outputs of instance <SignEx> of block <SignExtend> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 97. All outputs of instance <pcInc> of block <Increment> are unconnected in block <SingleCycleProcessor2>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v" line 105. All outputs of instance <test1> of block <SingleCycleProcessor2> are unconnected in block <tb_SingleCycleProcessor2>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <tb_SingleCycleProcessor2>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor2.v".
+        w = 32
+        wL = 32
+    Summary:
+	no macro.
+Unit <tb_SingleCycleProcessor2> synthesized.
+
+Synthesizing Unit <MainDecoder>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v".
+        opWidth = 6
+        ALUOpWidth = 2
+    Summary:
+	no macro.
+Unit <MainDecoder> synthesized.
+
+Synthesizing Unit <ALUDecoder>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Controller.v".
+        opWidth = 6
+        ALUOpWidth = 2
+    Summary:
+	no macro.
+Unit <ALUDecoder> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <tb_SingleCycleProcessor2> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block tb_SingleCycleProcessor2, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : tb_SingleCycleProcessor2.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           0
+ Number of bonded IOBs:                   0  out of    102     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.99 secs
+ 
+--> 
+
+Total memory usage is 257784 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   18 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

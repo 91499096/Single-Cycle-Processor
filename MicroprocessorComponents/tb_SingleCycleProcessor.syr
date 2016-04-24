@@ -1,0 +1,412 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: tb_SingleCycleProcessor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "tb_SingleCycleProcessor.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "tb_SingleCycleProcessor"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-tqg144
+
+---- Source Options
+Top Module Name                    : tb_SingleCycleProcessor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SignExtend.v" into library work
+Parsing module <SignExtend>.
+Parsing module <tb_SignExtend>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\RegisterFile.v" into library work
+Parsing module <RegisterFile>.
+Parsing module <tb_RegFil>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ProgramCounter.v" into library work
+Parsing module <nbitReg>.
+Parsing module <tb_nbitReg>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Mux.v" into library work
+Parsing module <Mux>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\InstructionMemory.v" into library work
+Parsing module <InstructionMemory>.
+Parsing module <tb_InstructionMemory>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Increment.v" into library work
+Parsing module <Increment>.
+Parsing module <tb_increment>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\DataMemory.v" into library work
+Parsing module <DataMemory>.
+Parsing module <tb_dMem>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" into library work
+Parsing module <ALU>.
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 11. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 12. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 13. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 14. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 15. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 16. parameter declaration becomes local in ALU with formal parameter declaration list
+INFO:HDLCompiler:693 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v" Line 17. parameter declaration becomes local in ALU with formal parameter declaration list
+Parsing module <tb_ALU>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\adder.v" into library work
+Parsing module <adder>.
+Parsing module <tb_adder>.
+Analyzing Verilog file "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" into library work
+Parsing module <SingleCycleProcessor>.
+Parsing module <tb_SingleCycleProcessor>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 72: Port ALUSrc is not connected to this instance
+
+Elaborating module <tb_SingleCycleProcessor>.
+WARNING:HDLCompiler:872 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 79: Using initial value of ALUsel since it is never assigned
+
+Elaborating module <SingleCycleProcessor(width=32,wordLength=32)>.
+
+Elaborating module <nbitReg(width=5)>.
+
+Elaborating module <InstructionMemory(width=32,wordLength=32)>.
+Reading initialization file \"loadInst.txt\".
+WARNING:HDLCompiler:1670 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\InstructionMemory.v" Line 11: Signal <instructionMem> in initial block is partially initialized.
+
+Elaborating module <RegisterFile(width=32,wordLength=32)>.
+Reading initialization file \"rFile.txt\".
+WARNING:HDLCompiler:189 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 41: Size mismatch in connection of port <addr3>. Formal port size is 5-bit while actual signal size is 32-bit.
+
+Elaborating module <DataMemory(width=32,wordLength=32)>.
+Reading initialization file \"dMem.txt\".
+
+Elaborating module <ALU(width=32)>.
+
+Elaborating module <SignExtend(in=32'sb010000,out=32)>.
+
+Elaborating module <Increment(width=5)>.
+WARNING:HDLCompiler:413 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Increment.v" Line 9: Result of 6-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <Mux(width=32)>.
+WARNING:HDLCompiler:1127 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 48: Assignment to SrcBMuxOut ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 49: Assignment to MemToRegMuxOut ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 50: Size mismatch in connection of port <in1>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:189 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 51: Size mismatch in connection of port <in2>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 51: Assignment to PCAdderOut ignored, since the identifier is never used
+
+Elaborating module <adder(width=32)>.
+WARNING:HDLCompiler:189 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 53: Size mismatch in connection of port <op1>. Formal port size is 32-bit while actual signal size is 5-bit.
+WARNING:HDLCompiler:1127 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 53: Assignment to PCAdderOut ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 74: Assignment to RD1 ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" Line 72: Input port ALUSrc is not connected on this instance
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 48. All outputs of instance <ALUInB> of block <Mux> are unconnected in block <SingleCycleProcessor>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 49. All outputs of instance <MemToRegMux> of block <Mux> are unconnected in block <SingleCycleProcessor>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 51. All outputs of instance <PCSrcMux> of block <Mux> are unconnected in block <SingleCycleProcessor>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 53. All outputs of instance <PCSrcUpdate> of block <adder> are unconnected in block <SingleCycleProcessor>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 72. All outputs of instance <test1> of block <SingleCycleProcessor> are unconnected in block <tb_SingleCycleProcessor>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <tb_SingleCycleProcessor>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v".
+        w = 32
+        WL = 32
+WARNING:Xst:2898 - Port 'ALUSrc', unconnected in block instance 'test1', is tied to GND.
+WARNING:Xst:2898 - Port 'MemtoReg', unconnected in block instance 'test1', is tied to GND.
+WARNING:Xst:2898 - Port 'RegDst', unconnected in block instance 'test1', is tied to GND.
+WARNING:Xst:2898 - Port 'branch', unconnected in block instance 'test1', is tied to GND.
+INFO:Xst:3210 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 72: Output port <RD1> of the instance <test1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 72: Output port <RD2> of the instance <test1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 72: Output port <ALUOut> of the instance <test1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 72: Output port <ReadD> of the instance <test1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SingleCycleProcessor.v" line 72: Output port <WriteMem> of the instance <test1> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <tb_SingleCycleProcessor> synthesized.
+
+Synthesizing Unit <nbitReg>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ProgramCounter.v".
+        width = 5
+    Found 1-bit register for signal <dout<4>>.
+    Found 1-bit register for signal <dout<3>>.
+    Found 1-bit register for signal <dout<2>>.
+    Found 1-bit register for signal <dout<1>>.
+    Found 1-bit register for signal <dout<0>>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <nbitReg> synthesized.
+
+Synthesizing Unit <InstructionMemory>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\InstructionMemory.v".
+        width = 32
+        wordLength = 32
+WARNING:Xst:2999 - Signal 'instructionMem', unconnected in block 'InstructionMemory', is tied to its initial value.
+    Found 32x32-bit single-port Read Only RAM <Mram_instructionMem> for signal <instructionMem>.
+    Summary:
+	inferred   1 RAM(s).
+Unit <InstructionMemory> synthesized.
+
+Synthesizing Unit <RegisterFile>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\RegisterFile.v".
+        width = 32
+        wordLength = 32
+    Summary:
+	no macro.
+Unit <RegisterFile> synthesized.
+
+Synthesizing Unit <DataMemory>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\DataMemory.v".
+        width = 32
+        wordLength = 32
+    Summary:
+	no macro.
+Unit <DataMemory> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\ALU.v".
+        width = 32
+    Summary:
+	no macro.
+Unit <ALU> synthesized.
+
+Synthesizing Unit <SignExtend>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\SignExtend.v".
+        in = 16
+        out = 32
+    Summary:
+	no macro.
+Unit <SignExtend> synthesized.
+
+Synthesizing Unit <Increment>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Increment.v".
+        width = 5
+    Summary:
+	no macro.
+Unit <Increment> synthesized.
+
+Synthesizing Unit <Mux>.
+    Related source file is "C:\Users\Chris\Documents\CompE 475\Homework 2\MicroprocessorComponents\Mux.v".
+        width = 32
+    Summary:
+	no macro.
+Unit <Mux> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <tb_SingleCycleProcessor> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block tb_SingleCycleProcessor, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : tb_SingleCycleProcessor.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4tqg144-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           0
+ Number of bonded IOBs:                   0  out of    102     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.60 secs
+ 
+--> 
+
+Total memory usage is 256184 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   24 (   0 filtered)
+Number of infos    :    5 (   0 filtered)
+

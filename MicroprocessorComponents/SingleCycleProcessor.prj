@@ -1,0 +1,8 @@
+verilog work "SignExtend.v"
+verilog work "RegisterFile.v"
+verilog work "ProgramCounter.v"
+verilog work "InstructionMemory.v"
+verilog work "DataMemory.v"
+verilog work "counter.v"
+verilog work "ALU.v"
+verilog work "SingleCycleProcessor.v"
